@@ -9,8 +9,8 @@ body {
 
 /* Layout */
 section {
-  padding-top: 70px;
-  padding-bottom: 70px;
+  padding-top: 60px;
+  padding-bottom: 50px;
 }
 
 .text-blue {
@@ -20,7 +20,8 @@ section {
 /* Typographic */
 h1,
 h2,
-h3 {
+h3,
+h4 {
   font-weight: 700;
 }
 
@@ -33,6 +34,11 @@ h1 {
 
 h2 {
   font-size: 25px;
+}
+
+h4 {
+  color: #6f7b97;
+  font-size: 15px;
 }
 
 p {
@@ -143,4 +149,30 @@ p {
 
 .hero-form p > a {
   text-decoration: underline;
+}
+
+/* MAIN CONTENT */
+
+/* CUSTOMER */
+.customer {
+  background-color: #f3f5f9;
+}
+
+.customer li {
+  width: 15%;
+  vertical-align: middle;
+}
+
+.customer a {
+  font-weight: 600;
+}
+
+.customer a:hover {
+  text-decoration: none;
+}
+
+.customer a span {
+  position: relative;
+  top: .5px;
+  margin-left: 5px;
 }
