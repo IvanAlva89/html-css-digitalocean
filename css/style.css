@@ -1,0 +1,146 @@
+/* GENERAL */
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: #031c4e;
+}
+
+/* UTILITIES */
+
+/* Layout */
+section {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.text-blue {
+  color: #006aff;
+}
+
+/* Typographic */
+h1,
+h2,
+h3 {
+  font-weight: 700;
+}
+
+h1 {
+  color: #fff;
+  font-size: 56px;
+  line-height: 1.2;
+  margin-top: 15px;
+}
+
+h2 {
+  font-size: 25px;
+}
+
+p {
+  font-weight: 600;
+ }
+
+/* HEADER */
+.main-header .navbar {
+  margin-bottom: 0;
+  background: #ffffff;
+  border: none;
+  border-radius: none;
+  font-size: 14px;
+  padding: 10px 0;
+}
+
+.navbar .navbar-left {
+  margin: 0 10%;
+}
+
+.main-header img {
+  width: 150px;
+  max-width: 100%;
+  position: relative;
+  bottom: 6px;
+}
+
+.main-header .navbar-brand,
+.main-header .navbar-nav li a {
+ color: #1e3460;
+ font-weight: 600;
+ padding: 15px 9px;
+}
+
+.main-header .navbar-nav li .btn-navbar {
+  color: #006aff;
+  border-color: #006aff;
+  padding: 5px 15px;
+  margin-top: 9px;
+}
+
+/* HERO */
+.hero {
+  background: url("../img/bg-banner-home.jpg");
+  background-position: center;
+}
+
+.hero p {
+  color: #bbcdff;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.hero img {
+  width: 20px;
+  max-width: 100%;
+  display: block;
+  position:absolute;
+}
+
+.hero .hero-form {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.hero .hero-form h2 {
+  line-height: 1.5;
+}
+
+.hero-form .form-group {
+  margin-bottom: 10px;
+}
+
+.hero-form .form-group > .form-control {
+  height: 40px;
+  padding: 3px 6px;
+  border-color: rgba(204, 204, 204, 0.3);
+  box-shadow: 0 0px 1px rgba(0,0,0,.075);
+}
+
+.hero .hero-form p {
+  color: #031c4e;
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.hero-form ::placeholder {
+  color: #757575;
+  font-weight: 600;
+}
+
+.hero-form form > :nth-child(3){
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  background: #579aff;
+  border: none;
+}
+
+.hero-form form > :last-child{
+  color: #757575;
+  font-size: 13px;
+  font-weight: 600;
+  border-color: rgba(204, 204, 204, 0.2);
+  box-shadow: 1px 2px 1px #e3e3e3;
+}
+
+.hero-form p > a {
+  text-decoration: underline;
+}
