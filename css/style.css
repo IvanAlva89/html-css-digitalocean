@@ -46,6 +46,8 @@ p {
  }
 
 /* HEADER */
+
+/* NAVBAR */
 .main-header .navbar {
   margin-bottom: 0;
   background: #ffffff;
@@ -55,8 +57,26 @@ p {
   padding: 10px 0;
 }
 
+.navbar .container {
+  position: relative;
+}
+
+.navbar .navbar-toggle {
+  border-color: #ffffff;
+}
+
+.navbar .navbar-toggle .icon-bar {
+  background-color: #3a8aff;
+  height: 3px;
+}
+
 .navbar .navbar-left {
-  margin: 0 10%;
+  margin: 0 5%;
+}
+
+.navbar .navbar-left,
+.navbar .navbar-right {
+  display: none;
 }
 
 .main-header img {
@@ -175,4 +195,35 @@ p {
   position: relative;
   top: .5px;
   margin-left: 5px;
+}
+
+
+/* TABLET */
+@media screen and (min-width: 768px) {
+  .navbar-left
+}
+
+/* DESKTOP */
+@media screen and (min-width: 992px) {
+  /* NAVBAR */
+  .navbar .navbar-left,
+  .navbar .navbar-right {
+    display: initial;
+  }
+
+}
+
+/* HAMBURGER - HEADER */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /* Mostra hamburger */
+  .navbar-toggle {
+    display: block;
+    position: absolute;
+    right: 0;
+  }
+
+    /* Nascondi contenitore menu */
+  .navbar-collapse {
+    display: none;
+  }
 }
