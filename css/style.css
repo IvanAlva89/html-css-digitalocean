@@ -36,13 +36,18 @@ h2 {
   font-size: 30px;
 }
 
+h3 {
+  font-size: 20px;
+}
+
 h4 {
   color: #6f7b97;
-  font-size: 15px;
+  font-size: 12px;
 }
 
 p {
   font-weight: 600;
+  font-size: 13px;
  }
 
 /* HEADER */
@@ -179,12 +184,18 @@ p {
 }
 
 .customer li {
-  width: 15%;
-  vertical-align: middle;
+  width: calc((100%/2) - 53px);
+  margin: 10px 10px;
+}
+
+.customer img {
+  display: inline-block;
+  width: 200px;
 }
 
 .customer a {
   font-weight: 600;
+  font-size: 14px;
 }
 
 .customer a:hover {
@@ -196,6 +207,41 @@ p {
   top: .5px;
   margin-left: 5px;
 }
+
+/* DEPLOY */
+section h2 {
+  font-size: 30px;
+}
+
+section p {
+  font-size: 20px;
+  color: #5c6a88;
+}
+
+section .deploy-list {
+  border-left: 2px solid #cccccc;
+  padding-inline-start: 10px;
+  line-height: 2.5;
+}
+
+.deploy-list > li {
+  list-style: none;
+}
+
+.deploy-list li a {
+  font-size: 20px;
+  color: #75809a;
+  font-weight: 600;
+}
+
+.row .deploy-list {
+  margin: 50px 0 15px 0;
+}
+
+section h3 + p {
+  font-size: 15px;
+}
+
 
 
 /* TABLET */
@@ -212,7 +258,31 @@ p {
   h2 {
     font-size: 24px;
   }
+
+  /* CUSTOMER */
+  h4 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 14px;;
+   }
+
+  .customer li {
+    width: 103px;
+    margin: 10px 5px;
+   }
+
+   /* DEPLOY */
+   .row > .deploy-row {
+     margin-top: 50px;
+   }
+
+    .row > .deploy-cluster {
+     margin-bottom: 25px;
+   }
 }
+
 
 /* DESKTOP */
 @media screen and (min-width: 992px) {
@@ -233,6 +303,20 @@ p {
 
   h2 {
     font-size: 24px;
+  }
+
+  /* CUSTOMER */
+  h4 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 15px;;
+  }
+
+   .customer li {
+     width: 135px;
+     margin: 10px 6px;
   }
 }
 
