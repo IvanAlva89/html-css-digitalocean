@@ -10,7 +10,7 @@ body {
 /* Layout */
 section {
   padding-top: 60px;
-  padding-bottom: 50px;
+  padding-bottom: 60px;
 }
 
 .text-blue {
@@ -300,6 +300,42 @@ section h3 + p {
 .features .row div > a {
   font-weight: 600;
 }
+
+/* TEST-SPEED */
+.test-speed {
+  color: #ffffff;
+  background: linear-gradient(150deg, #0048c5, #001e99);
+}
+
+.test-speed .row {
+  font-size: 13px;
+}
+
+.row .table tr td {
+  border-top-color: #ffffff;
+}
+
+.row .table tr:first-child td {
+  border-top: none;
+}
+
+.table tr > .acronym {
+  font-weight: 600;
+  padding-left: 15px;
+}
+
+.table tr > .city {
+  color: #bbc9ea;
+}
+
+.table tr > .text-right {
+  padding-right: 15px;
+}
+
+.row .table tr td a {
+  color: #00d5d1;
+}
+
 
 
 /* TABLET */
