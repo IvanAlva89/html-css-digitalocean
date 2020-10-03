@@ -242,6 +242,55 @@ section h3 + p {
   font-size: 15px;
 }
 
+/* DESIGN */
+.design {
+  background:#f3f5f9;
+}
+
+.design h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.design p {
+  font-size: 20px;
+}
+
+.design-slide > img {
+  max-width: 85%;
+  margin: 150px 0 15px 0;
+}
+
+.slide-1 > p {
+  font-size: 15px;
+  margin-bottom: 100px;
+}
+
+.slide-2 > i {
+  color: #2c82fe;
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.design-slide .slide-left,
+.design-slide .slide-right {
+  font-size: 45px;
+  position: absolute;
+}
+
+.design-slide .slide-left {
+  bottom: 22%;
+}
+
+.design-slide .slide-left:hover {
+  color: #6f7b97;
+}
+
+.design-slide .slide-right {
+  bottom: 22%;
+  right: 3.5%;
+}
+
 
 
 /* TABLET */
@@ -273,14 +322,23 @@ section h3 + p {
     margin: 10px 5px;
    }
 
-   /* DEPLOY */
-   .row > .deploy-row {
-     margin-top: 50px;
-   }
+  /* DEPLOY */
+  .row > .deploy-row {
+    margin-top: 50px;
+  }
 
-    .row > .deploy-cluster {
-     margin-bottom: 25px;
-   }
+  .row > .deploy-cluster {
+    margin-bottom: 25px;
+  }
+
+  /* DESIGN */
+   .design-slide > img {
+    margin-top: 130px;
+  }
+
+  .slide-1 > p {
+    margin-bottom: 80px;
+  }
 }
 
 
@@ -314,9 +372,27 @@ section h3 + p {
     font-size: 15px;;
   }
 
-   .customer li {
-     width: 135px;
-     margin: 10px 6px;
+  .customer li {
+    width: 135px;
+    margin: 10px 6px;
+  }
+
+  /* DESIGN */
+  .design-slide > img {
+    margin-top: 65px;
+  }
+
+  .design-slide .slide-left {
+    bottom: 30%;
+  }
+
+  .design-slide .slide-right {
+    bottom: 30%;
+  }
+
+  .slide-1 > p {
+    margin-bottom: 5px;
+    right: 2%;
   }
 }
 
