@@ -17,6 +17,13 @@ section {
   color: #006aff;
 }
 
+a > span {
+  font-weight: 600;
+  position: relative;
+  top: .5px;
+  margin-left: 5px;
+}
+
 /* Typographic */
 h1,
 h2,
@@ -202,12 +209,6 @@ p {
   text-decoration: none;
 }
 
-.customer a span {
-  position: relative;
-  top: .5px;
-  margin-left: 5px;
-}
-
 /* DEPLOY */
 section h2 {
   font-size: 30px;
@@ -291,6 +292,14 @@ section h3 + p {
   right: 3.5%;
 }
 
+/* FEATURES */
+.features .row > div {
+  margin: 20px 0 20px;
+}
+
+.features .row div > a {
+  font-weight: 600;
+}
 
 
 /* TABLET */
